@@ -9,8 +9,6 @@ I have also provide the colab notebook:
 
 ## LSTM training
 
-I have trained our own LSTM model from data set given under https://github.com/stuarteiffert/RNN-for-Human-Activity-Recognition-using-2D-Pose-Input.
-
 Since I am using Detectron2 for pose estimation, I have retrofitted the dataset to map to Detectron2 output format for training our LSTM model. (Original dataset is created using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) library which output 18 keypoints (or more) per human from the input image while Detectron2 produces only 17 keypoints).
 
 Model classifies the action into 6 categories
